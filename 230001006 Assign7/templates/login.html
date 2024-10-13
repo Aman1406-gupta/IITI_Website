@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="{{ url_for('static', filename='assets/IITI_Logo.png') }}" rel="icon" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">      
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <div class="div1">
+                <div class="logo2"><img src="{{ url_for('static', filename='assets/IITI_Logo.png') }}" alt="" class="logo"></div>Log In to your Account
+            </div>
+            <form action="/login" method="post">
+                <div class="div2">
+                    User Id:<input type="text" class="inp1" name="username" placeholder="Enter UserId">
+                </div>
+                <div class="div3">
+                    Password:<input type="password" class="inp2" name="password" placeholder="Enter Password">
+                </div>
+                <div class="div4">
+                    <button type="submit" class="btn">Log In</button>
+                </div>
+            </form>
+            <div class="div5">
+                <a href='/signup'>Create new account?</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

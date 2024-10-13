@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="{{ url_for('static', filename='assets/IITI_Logo.png') }}" rel="icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style3.css')}}">    
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <div class="logout">Logout  <a href='/logout'><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
+            <div class="div1">
+                <div class="logo2"><img src="{{ url_for('static', filename='assets/IITI_Logo.png') }}" alt="" class="logo"></div><div class="divhead">Welcome {{ username }} To <br><strong>Indian Institute of Technology</strong><br><strong>Indore</strong></div>
+            </div>
+            <div class="div2">
+                <b> Curriculum of B.Tech. Program </b><center>in</center><b> Computer Science and Engineering</b>
+            </div>
+            <div class="div3">
+                <div class="div31" id="31">
+                    <h2>B.TECH II year</h2>
+                    <div class="div311" id="311">
+                        <h3>Semester III</h3>
+                        <table border="1" cellpadding="5" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Course Code</th>
+                                    <th>Course Name</th>
+                                    <th>Weekly Contact Hours L-T-P</th>
+                                    <th>Total Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ZZ 2XX</td>
+                                    <td>Course-I for Minor Program</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>MA 205</td>
+                                    <td>Complex Analysis</td>
+                                    <td>3-1-0<br>(1/2 semester)</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>MA 207</td>
+                                    <td>Differential Equations-II</td>
+                                    <td>3-1-0<br>(1/2 semester)</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 201</td>
+                                    <td>Discrete Mathematical Structures</td>
+                                    <td>2-1-0</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 203</td>
+                                    <td>Data Structures and Algorithms</td>
+                                    <td>2-1-0</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 207</td>
+                                    <td>Database and Information Systems</td>
+                                    <td>2-1-0</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 209</td>
+                                    <td>Logic Design</td>
+                                    <td>2-0-2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 253</td>
+                                    <td>Data Structures and Algorithms Lab</td>
+                                    <td>0-0-3</td>
+                                    <td>1.5</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 257</td>
+                                    <td>Database and Information Systems Lab</td>
+                                    <td>0-0-3</td>
+                                    <td>1.5</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 2XX</td>
+                                    <td>Department Elective I</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Total</td>
+                                    <td>11-4-8 **</td>
+                                    <td>22/25</td>
+                                </tr>
+                            </tbody>                
+                        </table>
+                    </div>
+
+                    <div class="div312" id="312">
+                        <h3>Semester IV</h3>
+                        <table border="1" cellpadding="5" cellspacing="0">
+                            <thead>
+                              <tr>
+                                <th>Course Code</th>
+                                <th>Course Name</th>
+                                <th>Weekly Contact Hours L-T-P</th>
+                                <th>Total Credits</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>ZZ 2XX</td>
+                                <td>Course-II for Minor Program</td>
+                                <td>x-x-x</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>MA 204N</td>
+                                <td>Numerical Methods</td>
+                                <td>2-0-2</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 202</td>
+                                <td>Automata Theory and Logic</td>
+                                <td>2-1-0</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 204</td>
+                                <td>Design and Analysis of Algorithms</td>
+                                <td>2-1-0</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 210</td>
+                                <td>Computer Architecture</td>
+                                <td>2-1-0</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 254</td>
+                                <td>Design and Analysis of Algorithms Lab</td>
+                                <td>0-0-3</td>
+                                <td>1.5</td>
+                              </tr>
+                              <tr>
+                                <td>CS 264</td>
+                                <td>Computer Architecture Lab</td>
+                                <td>0-0-3</td>
+                                <td>1.5</td>
+                              </tr>
+                              <tr>
+                                <td>CS 2XX</td>
+                                <td>Department Elective II</td>
+                                <td>x-x-x</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>ZZ 2XX</td>
+                                <td>Institute Elective-I</td>
+                                <td>x-x-x</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td colspan="2">Total</td>
+                                <td>8-3-8</td>
+                                <td>21/24</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>  
+                </div>
+
+                <div class="div32" id="32">
+                    <h2>B.TECH III year</h2>
+                    <div class="div321" id="321">
+                        <h3>Semester V</h3>
+                        <table border="1" cellpadding="5" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Course Code</th>
+                                    <th>Course Name</th>
+                                    <th>Weekly Contact Hours L-T-P</th>
+                                    <th>Total Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ZZ 3XX</td>
+                                    <td>Course III - Minor Program</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 303</td>
+                                    <td>Operating Systems</td>
+                                    <td>2-1-0</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 307</td>
+                                    <td>Optimization Algorithms and Techniques</td>
+                                    <td>2-1-0</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 311</td>
+                                    <td>Parallel Computing</td>
+                                    <td>2-0-2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 313</td>
+                                    <td>Computer Networks</td>
+                                    <td>2-0-2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 353N</td>
+                                    <td>Operating Systems Lab</td>
+                                    <td>0-0-2</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 357N</td>
+                                    <td>Optimization Algorithms and Techniques Lab</td>
+                                    <td>0-0-2</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 3XX</td>
+                                    <td>Department Elective III</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>ZZ 3XX</td>
+                                    <td>Institute Elective II</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Total</td>
+                                    <td>8-2-8</td>
+                                    <td>20/23</td>
+                                  </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
+
+                    <div class="div322" id="322">
+                        <h3>Semester VI</h3>
+                        <table border="1" cellpadding="5" cellspacing="0">
+                            <thead>
+                              <tr>
+                                <th>Course Code</th>
+                                <th>Course Name</th>
+                                <th>Weekly Contact Hours L-T-P</th>
+                                <th>Total Credits</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>ZZ 3XX</td>
+                                <td>Course IV - Minor Program</td>
+                                <td>x-x-x</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 302N</td>
+                                <td>Computer Graphics and Visualization</td>
+                                <td>2-0-2</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 304N</td>
+                                <td>Computational Intelligence</td>
+                                <td>2-1-0</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 308N</td>
+                                <td>Compiler Techniques</td>
+                                <td>2-0-2</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 310</td>
+                                <td>Software Engineering</td>
+                                <td>2-0-2</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 354N</td>
+                                <td>Computational Intelligence Lab</td>
+                                <td>0-0-3</td>
+                                <td>1.5</td>
+                              </tr>
+                              <tr>
+                                <td>CS 3XX</td>
+                                <td>Departmental Elective IV</td>
+                                <td>x-x-x</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>CS 3XX</td>
+                                <td>Departmental Elective V</td>
+                                <td>x-x-x</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td>ZZ 3XX</td>
+                                <td>Institute Elective III</td>
+                                <td>x-x-x</td>
+                                <td>3</td>
+                              </tr>
+                              <tr>
+                                <td colspan="2">Total</td>
+                                <td>8-1-9</td>
+                                <td>22.5/25.5</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+
+                <div class="div33" id="33">
+                    <h2>B.TECH IV year</h2>
+                    <div class="div331" id="331">
+                        <h3>Semester VII</h3>
+                        <table border="1" cellpadding="5" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Course Code</th>
+                                    <th>Course Name</th>
+                                    <th>Weekly Contact Hours<br>L-T-P</th>
+                                    <th>Total Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ZZ 4XX</td>
+                                    <td>Course-V for Minor Program</td>
+                                    <td>x-x-x</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 493N</td>
+                                    <td>B Tech Project (BTP)</td>
+                                    <td>0-0-32</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 495</td>
+                                    <td>Internship - I</td>
+                                    <td>x-x-x</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 497</td>
+                                    <td>Internship - II</td>
+                                    <td>x-x-x</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Total</td>
+                                    <td>0-0-32</td>
+                                    <td>18/20</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        
+                    </div>
+
+                    <div class="div332" id="332">
+                        <h3>Semester VIII</h3>
+                        <table border="1" cellpadding="5" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Course Code</th>
+                                    <th>Course Name</th>
+                                    <th>Weekly Contact Hours<br>L-T-P</th>
+                                    <th>Total Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>CS 4XX</td>
+                                    <td>Department Elective VI</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>CS 4XX</td>
+                                    <td>Department Elective VII</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>ZZ 4XX</td>
+                                    <td>Institute Elective IV</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>ZZ 4XX</td>
+                                    <td>Institute Elective V</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>ZZ 4XX</td>
+                                    <td>Institute Elective VI</td>
+                                    <td>x-x-x</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Total   </td>
+                                    <td></td>
+                                    <td>15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../static/assets/back_img.jpeg');
+  height: 97vh;
+  color: white;
+  background-size: cover;
+  background-position: center
+}
+
+.container1{
+  position: relative;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px rgb(117, 117, 117);
+  width: 50%;
+  height: 60%;
+  z-index: 0;
+} 
+
+.container1::before {
+  content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+
+.div1{
+  font-size: xx-large;
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo{
+  width: 75%;
+}
+.logo2{
+  border-radius: 50%;
+  height: 100%;
+  width: 15%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{ 
+  height: 65%;
+}
+
+.div2,.div3{
+  padding-left: 15%;
+  padding-right: 15%;
+  height: 30%;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inp1{
+  padding: 5px;
+  width: 50%;
+  outline: none;
+}
+.inp2{
+  padding: 5px;
+  width: 50%;
+  outline: none;
+}
+
+.div4{
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div5{
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn{
+  transition: 0.15s;
+  width: 45%;
+  font-size: larger;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(0, 132, 255);
+  height: 40%;
+  cursor: pointer;
+  color: white;
+}
+.btn:hover{
+  background-color: rgb(0, 102, 255);
+  width: 50%;
+  height: 45%;
+}
